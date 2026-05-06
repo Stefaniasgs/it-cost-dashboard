@@ -1,4 +1,4 @@
-# 📊 Dashboard de Custos do Setor de TI
+ Dashboard de Custos do Setor de TI
 
 ## Olá!
 
@@ -11,13 +11,13 @@ Se você está aqui olhando o meu trabalho, obrigada pelo tempo. Espero que esse
 
 ---
 
-## 💡 Sobre o projeto
+##  Sobre o projeto
 
 Um pipeline completo de dados que transforma informações brutas de custos de TI em um dashboard interativo no Power BI cobrindo despesas com materiais, licenças de software, profissionais e manutenção ao longo de 2024.
 
 ---
 
-## 🔄 O Pipeline
+##  O Pipeline
 
 ```
 Arquivo Excel Bruto  →  Script Python  →  Excel Tratado  →  Dashboard Power BI
@@ -27,7 +27,7 @@ Eu queria entender por que o tratamento de dados importa antes da visualização
 
 ---
 
-## 🐍 Python — Script de Limpeza de Dados
+## Script de Limpeza de Dados
 
 Antes de carregar qualquer coisa no Power BI, os dados passam por um script de tratamento que:
 
@@ -42,7 +42,7 @@ Antes de carregar qualquer coisa no Power BI, os dados passam por um script de t
 
 ---
 
-## 📊 Power BI — Dashboard
+## Power BI — Dashboard
 
 O dashboard responde quatro perguntas que considerei mais úteis:
 
@@ -60,24 +60,7 @@ Medidas criadas com DAX:
 
 ---
 
-## 🗂️ Estrutura do Projeto
-
-```
-📁 dashboard-custos-ti/
-├── screenshots/
-│   ├── dashboard.png                  # Dashboard Power BI
-│   ├── script_codigo.png              # Script Python — Polacode
-│   └── script_terminal.png            # Saída do terminal
-├── custos_ti_2024.xlsx                # Base de dados bruta
-├── tratamento_de_dados.py             # Script de limpeza em Python
-├── custos_ti_2024_tratado.xlsx        # Dados tratados
-├── Custos TI 2024.pbix                # Arquivo Power BI
-└── README.md
-```
-
----
-
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
  Python | Limpeza e validação dos dados |
  Pandas | Manipulação dos dados |
@@ -87,7 +70,7 @@ Medidas criadas com DAX:
 
 ---
 
-## ▶️ Como executar
+## Como executar
 
 Você vai precisar de: Python 3.x e Power BI Desktop instalados.
 
@@ -103,7 +86,7 @@ Depois abra o arquivo `Custos TI 2024.pbix` no Power BI Desktop.
 
 ---
 
-## 🌱 O que aprendi
+## O que aprendi
 
 Esse projeto me desafiou a conectar coisas que eu havia aprendido separadamente Python, Excel e Power BI, para poder visualizar e transformar em algo que realmente funciona junto.
 Aprendi que dados sujos podem distorcer completamente uma análise, e que o tratamento antes da visualização é essencial e garante um resultado mais preciso.
@@ -112,7 +95,7 @@ Este é um dos meus primeiros projetos, caso tenha alguma critica ou sugestão d
 
 ---
 
-## 📬 Entre em contato
+## Entre em contato
 
 Se tiver alguma dúvida sobre o projeto ou quiser conversar:
 
