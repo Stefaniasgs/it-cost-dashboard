@@ -1,31 +1,12 @@
 # Dashboard de Custos do Setor de TI
 
-## Olá!
-
-Esse é um dos meus primeiros projetos completos de análise de dados!
-
-A ideia surgiu para que eu pudesse não só praticar o que aprendi, mas também para mostrar a forma como trabalho e desenvolvo tarefas.
-Para que eu pudesse colocar todas as ferramentas que aprendi em um projeto, resolvi fazer esse dashboard que usa diferentes funções em Python, Excel e termina com um gráfico de visualização no Power BI.
-
-Se você está aqui olhando o meu trabalho, obrigada pelo tempo. Espero que esse projeto mostre não só o que eu construí, mas como eu penso. 
-
----
-
 ## Sobre o projeto
 
 Um pipeline completo de dados que transforma informações brutas de custos de TI em um dashboard interativo no Power BI, cobrindo despesas com materiais, licenças de software, profissionais e manutenção ao longo de 2024.
 
----
-
 ## O Pipeline
 
-```
 Arquivo Excel Bruto  →  Script Python  →  Excel Tratado  →  Dashboard Power BI
-```
-
-Eu queria entender por que o tratamento de dados importa antes da visualização, e construir esse pipeline deixou isso muito claro para mim.
-
----
 
 ## Script de Limpeza de Dados
 
@@ -39,8 +20,6 @@ Antes de carregar qualquer coisa no Power BI, os dados passam por um script de t
 - Remove registros duplicados pelo ID do lançamento
 - Exporta um arquivo limpo e pronto para análise
 - Exibe um resumo completo no terminal
-
----
 
 ## Power BI — Dashboard
 
@@ -57,8 +36,6 @@ Medidas criadas com DAX:
 - `Total Gasto` — SOMA de todas as transações
 - `Total Lançamentos` — CONTAGEM de todos os registros
 - `Ticket Médio` — DIVIDE(Total Gasto, Total Lançamentos)
-
----
 
 ## Tecnologias Utilizadas
 
@@ -90,9 +67,10 @@ Depois abra o arquivo `Custos TI 2024.pbix` no Power BI Desktop.
 
 ## O que aprendi
 
-Esse projeto me desafiou a conectar coisas que eu havia aprendido separadamente Python, Excel e Power BI, e transformar em algo que realmente funciona junto. Aprendi que dados sujos podem distorcer completamente uma análise, e que o tratamento antes da visualização é essencial.
-
-Este é um dos meus primeiros projetos. Caso tenha alguma crítica ou sugestão de melhoria, fique à vontade para me contatar!
+Este projeto conectou conhecimentos de Python, Excel e Power BI em um 
+fluxo de trabalho único, reforçando a importância do tratamento de dados 
+como etapa anterior à análise, dados não tratados podem distorcer 
+completamente os resultados visualizados.
 
 ---
 
